@@ -4,7 +4,7 @@ Sun Yu, Ye Yun, Liu Wu, Gao Wenpeng, Fu YiLi, Mei Tao
 ICCV 2019
 
 [Paper Page](https://arxiv.org/abs/1908.07172)
-![Teaser Image](https://github.com/Arthur151/DSD-SATN/tree/master/resources/results/video_result.png)
+![Demo Image](https://github.com/Arthur151/DSD-SATN/blob/master/resources/results/video_result.png)
 
 ### Requirements
 - Python 3.6+
