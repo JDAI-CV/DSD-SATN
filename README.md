@@ -69,4 +69,3 @@ year = {2019}
 
 ### Acknowledgement
 we refer to [pytorch_hmr](https://github.com/MandyMo/pytorch_HMR) for training code. The fast rendering module is brought from [face3d](https://github.com/YadiraF/face3d). The transformer module is brought from [transformer-pytorch](https://github.com/jadore801120/attention-is-all-you-need-pytorch).
-
