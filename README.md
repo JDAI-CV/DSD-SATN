@@ -4,7 +4,7 @@ Sun Yu, Ye Yun, Liu Wu, Gao Wenpeng, Fu YiLi, Mei Tao
 ICCV 2019
 
 [Paper Page](https://arxiv.org/abs/1908.07172)
-![Teaser Image](https://akanazawa.github.io/hmr/resources/images/teaser.png)
+![Teaser Image](https://github.com/Arthur151/DSD-SATN/tree/master/resources/results/video_result.png)
 
 ### Requirements
 - Python 3.6+
@@ -51,7 +51,7 @@ Additionally, if you want to save the mesh results, please add --save-obj for sa
 Coming soon...
 
 ### TODO List
-- [] Releasing code for
+- [ ] Releasing code for
     - [x] testing
     - [ ] webcam demo
     - [ ] training
