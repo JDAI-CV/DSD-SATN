@@ -1,0 +1,9 @@
+torch
+torchivision
+prettytable
+neural_renderer_pytorch
+chumpy
+-e git+https://github.com/ncullen93/torchsample.git#egg=torchsample
+nibabel
+ntpath
+opencv-python
