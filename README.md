@@ -1,6 +1,6 @@
 # Human Mesh Recovery from Monocular Images via a Skeleton-disentangled Representation
 
-[Sun Yu](https://scholar.google.com/citations?hl=en&user=fkGxgrsAAAAJ), Ye Yun, [Liu Wu](https://scholar.google.com/citations?hl=en&user=rQpizr0AAAAJ), [Gao Wenpeng](http://homepage.hit.edu.cn/wpgao), Fu YiLi, [Mei Tao](https://scholar.google.com/citations?user=7Yq4wf4AAAAJ)
+[Sun Yu](https://scholar.google.com/citations?hl=en&user=fkGxgrsAAAAJ), [Ye Yun](https://scholar.google.com/citations?hl=en&user=wxvX51gAAAAJ), [Liu Wu](https://scholar.google.com/citations?hl=en&user=rQpizr0AAAAJ), [Gao Wenpeng](http://homepage.hit.edu.cn/wpgao), Fu YiLi, [Mei Tao](https://scholar.google.com/citations?user=7Yq4wf4AAAAJ)
 
 Accepted to ICCV 2019 https://arxiv.org/abs/1908.07172 [Paper Link](https://arxiv.org/abs/1908.07172)
 
