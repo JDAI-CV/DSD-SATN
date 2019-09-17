@@ -20,7 +20,6 @@ def val_result(self,epoch,evaluation = False,data_loader=None):
         for test_iter,data_3d in enumerate(data_loader):
 
             outputs,kps,details = self.net_forward(data_3d,self.generator,video=self.video)
-
             kps_gt = data_3d['kp_2d'].cuda().reshape(data_3d['kp_2d'].shape[0],14,2)
             vis = (kps_gt!=-2.).float()
 
@@ -28,7 +27,7 @@ def val_result(self,epoch,evaluation = False,data_loader=None):
                 integral_kp2d_error.update((((kps_gt-kps.reshape(kps_gt.shape[0],14,-1))**2)*vis).sum(-1).mean(0).detach().cpu().numpy())
                 integral_kp2d_pckh.update(compute_pckh_lsp(kps_gt.cpu().numpy(),kps.reshape(kps_gt.shape[0],14,-1).detach().cpu().numpy(),vis.cpu()))
 
-            if test_iter%self.val_batch_size==0:# and not evaluation:
+            if test_iter%self.val_batch_size==0 and not evaluation:
                 name = self.result_img_dir+'/{}_{}_val_{}'.format(self.tab,epoch,test_iter)
                 self.visualizer.visulize_result(outputs,kps,data_3d,name,vnum = vnum)
                 print('PCKh: {:.3f}'.format(integral_kp2d_pckh.avg))

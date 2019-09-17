@@ -15,6 +15,7 @@ import torch
 import torch.nn as nn
 from torch.utils.data import Dataset, DataLoader, ConcatDataset
 
+from dataset.demo_loader import Demo_Loader
 from dataset.human36m_dataset import hum36m_dataloader
 from dataset.mpii import MPIIDataset
 from dataset.AICH import AICH
@@ -87,7 +88,7 @@ class Base(object):
         if self.internet:
             datasets = Internet(train_flag = train_flag,high_resolution = self.high_resolution, spawn = self.receptive_field,video=self.video)
         elif self.test_single:
-            datasets = Deepfashion(train_flag = train_flag,high_resolution = self.high_resolution)#MPV(train_flag = train_flag,high_resolution = self.high_resolution)#
+            datasets = Demo_Loader(train_flag = train_flag,high_resolution = self.high_resolution)
         elif self.eval_pw3d:
             datasets = PW3D(train_flag = train_flag,high_resolution = self.high_resolution, spawn = self.receptive_field,video=self.video,kps_alpha_format=self.alpha_format)
         else:
@@ -215,7 +216,7 @@ class Base(object):
         action_results = []
         for imgpath in imgpaths:
             actions.append(os.path.basename(imgpath).split('.jpg')[0].split('_')[1].split(' ')[0])
-        for action_name in self.action_names:
+        for action_name in config.h36m_action_names:
             action_idx = np.where(np.array(actions)==action_name)[0]
             action_results.append('{:.2f}'.format(results[action_idx].mean()))
         return action_results

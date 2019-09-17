@@ -167,7 +167,7 @@ def test_dataset(dataset,with_3d=False):
 
         image = r['image_org'][0].numpy().astype(np.uint8)[:,:,::-1]
         kps = r['kp_2d'][0].numpy()
-        kps = r['kps_alpha'][0].numpy()
+        #kps = r['kps_alpha'][0].numpy()
         kps = (kps + 1) * 256 / 2.0
         image_real = draw_lsp_14kp__bone(image.copy(), kps)
         cv2.imwrite('./{}/kp_{}.png'.format(save_dir,_), image_real)

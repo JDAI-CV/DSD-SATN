@@ -26,6 +26,7 @@ mode_group.add_argument('--videofile', type=str, default='./demo/demo.mp4',help=
 mode_group.add_argument('--save_path_video', type=str, default='./result.avi',help='path of saving video result')
 mode_group.add_argument('--internet',action='store_true',help = 'whether to run on internet images/videos')
 mode_group.add_argument('--test-single',action='store_true',help = 'whether to run on single image mode')
+mode_group.add_argument('--inimg_dir',type = str,default = os.path.join(project_dir,'resources/image'),help = 'path of images for input')
 mode_group.add_argument('--visual-all',action='store_true',help = 'whether to visualize all rendering results.')
 mode_group.add_argument('--save-smpl-params',action='store_true',help = 'whether to save smpl parameters of 3D body mesh.')
 mode_group.add_argument('--save-obj',action='store_true',help = 'whether to save obj file of 3D body mesh.')

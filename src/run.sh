@@ -12,7 +12,7 @@ EVAL_DATASET='h36m'
 if [ "$EVAL_MODE" = 1 ]
 then
     #CUDA_VISIBLE_DEVICES=${GPU_IDS} python3 test.py --gpu=${GPU_IDS} --tab=${TAB} --dataset=${EVAL_DATASET} --val_batch_size=${VBS} --eval --eval-pw3d --video --eval-with-single-frame-network=1 > ${TAB}'_'${EVAL_DATASET}'_g'${GPU_IDS}.log 2>&1 &
-    CUDA_VISIBLE_DEVICES=${GPU_IDS} python3 test.py --gpu=${GPU_IDS} --tab=${TAB} --dataset=${EVAL_DATASET} --val_batch_size=${VBS} --eval --save-obj --save-smpl-params --visual-all
+    CUDA_VISIBLE_DEVICES=${GPU_IDS} python3 test.py --gpu=${GPU_IDS} --tab=${TAB} --dataset=${EVAL_DATASET} --val_batch_size=${VBS} --eval --test-single
     #CUDA_VISIBLE_DEVICES=${GPU_IDS} python3 test.py --gpu=${GPU_IDS} --tab=${TAB} --dataset=${EVAL_DATASET} --val_batch_size=${VBS} --eval --eval-protocol=${EVAL_protocol}
 elif [ "$TEST_MODE" = 1 ]
 then
@@ -22,4 +22,4 @@ else
 fi
 
 # arguments list
-#_--with-kps --fine-tune --eval-pw3d --eval --save-features --video --eval-with-single-frame-network
+#_--with-kps --fine-tune --eval-pw3d --eval --save-features --video --eval-with-single-frame-network --save-obj --save-smpl-params --visual-all
