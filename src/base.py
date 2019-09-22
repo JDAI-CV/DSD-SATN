@@ -42,8 +42,7 @@ class Base(object):
         self.write2log('================ Training Loss (%s) ================\n' % time.strftime("%c"))
 
         self.result_img_dir = '../result_image/{}_on_gpu{}'.format(self.tab,self.gpu)
-        if not os.path.isdir(self.result_img_dir):
-            os.makedirs(self.result_img_dir)
+        os.makedirs(self.result_img_dir,exist_ok=True)
 
         self.adjust_lr_epoch = [int(self.epoch*0.8),int(self.epoch*0.95)]
 
@@ -134,7 +133,7 @@ class Base(object):
         if self.with_kps:
             additional_data = data_3d[self.kps_type].clone().cuda()
             additional_data = additional_data.reshape(additional_data.shape[0],-1)
-            
+
         if video:
             if not self.shuffle_aug:
                 outputs = model(imgs, additional_data, shuffle=self.shuffle_aug,kp3d_24=self.kp3d_24)
