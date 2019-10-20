@@ -6,9 +6,11 @@ Accepted to ICCV 2019 https://arxiv.org/abs/1908.07172 [Paper Link](https://arxi
 
 ![Demo Image](https://github.com/Arthur151/DSD-SATN/blob/master/resources/results/video_result.png)
 
+### Internet Video Demo
 ![Demo of internet skating video](https://github.com/Arthur151/DSD-SATN/blob/master/resources/video/skate3.gif)
-![Demo of internet skating video](https://github.com/Arthur151/DSD-SATN/blob/master/resources/video/skate1.gif)
-![Demo of internet skating video](https://github.com/Arthur151/DSD-SATN/blob/master/resources/video/skate2.gif)
+
+### More Demos on Youtube
+[![Demo video on Youtube]()](https://youtu.be/GG-8If4uVQM)
 
 ### Requirements
 - Python 3.6+
