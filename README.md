@@ -4,7 +4,7 @@
 
 Accepted to ICCV 2019 https://arxiv.org/abs/1908.07172 [Paper Link](https://arxiv.org/abs/1908.07172)
 
-![Demo Image](https://github.com/Arthur151/DSD-SATN/blob/master/resources/results/video_result.png=670x435)
+![Demo Image](https://github.com/Arthur151/DSD-SATN/blob/master/resources/results/video_result.png=670x)
 
 ### Internet Video Demo
 ![Demo of internet skating video](https://github.com/Arthur151/DSD-SATN/blob/master/resources/video/skate3.gif)
