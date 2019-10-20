@@ -10,7 +10,7 @@ Accepted to ICCV 2019 https://arxiv.org/abs/1908.07172 [Paper Link](https://arxi
 ![Demo of internet skating video](https://github.com/Arthur151/DSD-SATN/blob/master/resources/video/skate3.gif)
 
 ### More Demos on Youtube
-[![Demo video on Youtube]()](https://youtu.be/GG-8If4uVQM)
+[![Demo video on Youtube](https://github.com/Arthur151/DSD-SATN/blob/master/resources/results/DSD-SATN.png)](https://youtu.be/GG-8If4uVQM)
 
 ### Requirements
 - Python 3.6+
