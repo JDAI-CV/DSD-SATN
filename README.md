@@ -6,6 +6,10 @@ Accepted to ICCV 2019 https://arxiv.org/abs/1908.07172 [Paper Link](https://arxi
 
 ![Demo Image](https://github.com/Arthur151/DSD-SATN/blob/master/resources/results/video_result.png)
 
+![Demo of internet skating video](https://github.com/Arthur151/DSD-SATN/blob/master/resources/video/skate3.gif)
+![Demo of internet skating video](https://github.com/Arthur151/DSD-SATN/blob/master/resources/video/skate1.gif)
+![Demo of internet skating video](https://github.com/Arthur151/DSD-SATN/blob/master/resources/video/skate2.gif)
+
 ### Requirements
 - Python 3.6+
 - [Pytorch](https://pytorch.org/) tested on 0.4.1/1.0/1.2 versions
