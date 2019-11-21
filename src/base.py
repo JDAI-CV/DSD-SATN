@@ -38,6 +38,7 @@ from utils.SMPL import SMPL
 class Base(object):
     def __init__(self):
         self.load_config_dict(vars(args))
+        os.makedirs(self.log_path,exist_ok=True)
         self.log_file = os.path.join(self.log_path,'{}.log'.format(self.tab))
         self.write2log('================ Training Loss (%s) ================\n' % time.strftime("%c"))
 
