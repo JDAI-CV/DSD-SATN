@@ -84,7 +84,6 @@ CUDA_VISIBLE_DEVICES=0 python3 test.py --gpu=0 --dataset=h36m --tab=single_h36m 
     - [x] testing
     - [x] demo of single image
     - [ ] webcam demo
-    - [ ] training
 
 ### Citation
 If you use this code for your research, please consider citing:
