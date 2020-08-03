@@ -49,6 +49,7 @@ data_set_path = {
     ...
     'pw3d':'/PATH/TO/3DPW',}
 ```
+About extracting frames from Human3.6M dataset that consist with the 3D annotation, please refer to src/dataset/extract_imgs_h36m.py.
 
 Step 3) Apply for the datasets from official [Human3.6M](http://vision.imar.ro/human3.6m/description.php) and [3DPW](https://virtualhumans.mpi-inf.mpg.de/3DPW/). Especially, pre-processing the input images of Human3.6M dataset. Extracting 1 frame from every 5 frame of video in Human3.6M dataset. Set the path of extracted images as {H36m_dir}/images and name each image as the format (Sn_action name_camera id_frame number.jpg) shown in h36m/h36m_test.txt (e.g. S11_Discussion 2_2_149.jpg). 
 
@@ -96,6 +97,7 @@ booktitle = {IEEE International Conference on Computer Vision, ICCV},
 year = {2019}
 }
 ```
+Please contect me if you have any question, e-mail: yusun@stu.hit.edu.cn
 
 ### Acknowledgement
 we refer to [pytorch_hmr](https://github.com/MandyMo/pytorch_HMR) for training code. The fast rendering module is brought from [face3d](https://github.com/YadiraF/face3d). The transformer module is brought from [transformer-pytorch](https://github.com/jadore801120/attention-is-all-you-need-pytorch).
