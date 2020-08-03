@@ -27,7 +27,7 @@ def fix_eval():
     for image in images:
         basename =  os.path.basename(image)
         subject_id, action_name, cam_id, frame_id = basename.split('_')
-        # I have dropped the first 20 frames for remove redundency
+        # I have dropped the first 15 frames for remove redundency
         frame_id = int(frame_id.replace('.jpg', ''))+3
         correct_img_path = os.path.join('archives', 'images', '{}_{}_{}_{}.jpg'.format(subject_id, action_name, cam_id, frame_id))
         target_path = os.path.join('archives', 'corrected_imgs', basename)
