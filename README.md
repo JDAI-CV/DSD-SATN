@@ -40,9 +40,9 @@ The results are saved in DSD-SATN/resources/results.
 
 1. Prepare model and data.
 
-Step 1) Download the pre-trained models and statistical model from [google drive](https://drive.google.com/open?id=1lwqCg7AmAN6hklWzWgB1FhLNBDkECdct). Unzip them under the project dir (e.g. DSD-SATN/trained_model, DSD-SATN/model)
+Step 1) Download the pre-trained models and statistical model from [google drive](https://drive.google.com/drive/folders/1jfKLsQuDVLekAJqCOoVlSYBfJc0ZUReE?usp=sharing). Unzip them under the project dir (e.g. DSD-SATN/trained_model, DSD-SATN/model)
 
-Step 2) Download the [processed annotations](https://drive.google.com/open?id=1-SbuyxPduh1drB0BmDZEYsJNlgnRdGgh) (moshed parameters, extracted DSD features of images in Human3.6M, and 2D pose estimations from [AlphaPose](https://github.com/MVIG-SJTU/AlphaPose/tree/pytorch)) of Human3.6M and 3DPW dataset. Unzip them and set their location in data_set_path of src/config.py like
+Step 2) Download the [processed annotations](https://drive.google.com/drive/folders/1jfKLsQuDVLekAJqCOoVlSYBfJc0ZUReE?usp=sharing) (moshed parameters, extracted DSD features of images in Human3.6M, and 2D pose estimations from [AlphaPose](https://github.com/MVIG-SJTU/AlphaPose/tree/pytorch)) of Human3.6M and 3DPW dataset. Unzip them and set their location in data_set_path of src/config.py like
 ```
 data_set_path = {
     'h36m':'PATH/TO/H36M',
