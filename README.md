@@ -2,7 +2,9 @@
 
 [Sun Yu](https://scholar.google.com/citations?hl=en&user=fkGxgrsAAAAJ), [Ye Yun](https://scholar.google.com/citations?hl=en&user=wxvX51gAAAAJ), [Liu Wu](https://scholar.google.com/citations?hl=en&user=rQpizr0AAAAJ), [Gao Wenpeng](http://homepage.hit.edu.cn/wpgao), [Fu YiLi](http://homepage.hit.edu.cn/fuyili), [Mei Tao](https://scholar.google.com/citations?user=7Yq4wf4AAAAJ)
 
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/human-mesh-recovery-from-monocular-images-via/3d-human-pose-estimation-on-3dpw)](https://paperswithcode.com/sota/3d-human-pose-estimation-on-3dpw?p=human-mesh-recovery-from-monocular-images-via)
+<!---[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/human-mesh-recovery-from-monocular-images-via/3d-human-pose-estimation-on-3dpw)](https://paperswithcode.com/sota/3d-human-pose-estimation-on-3dpw?p=human-mesh-recovery-from-monocular-images-via)-->
+
+### Update: Please refer to [CenterHMR](https://github.com/Arthur151/CenterHMR) for detection-free single-shot multi-person 3D mesh recovery.
 
 Accepted to ICCV 2019 https://arxiv.org/abs/1908.07172 [Paper Link](https://arxiv.org/abs/1908.07172)
 
